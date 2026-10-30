@@ -41,9 +41,10 @@
 
 ## 怎麼用
 
-1. 把這個資料夾複製到家目錄，改名成 `AI-Center`（已經有 `~/AI-Center` 的，就只把裡面的東西搬進去）。
+1. 把這個 repo 下載到家目錄的 `AI-Center`（已經有 `~/AI-Center` 的，先 clone 到別處，再把裡面的東西搬進去）。
    ```bash
-   cp -R ai-center-template ~/AI-Center
+   git clone https://github.com/iiujung/ai-center-public.git ~/AI-Center
+   rm -rf ~/AI-Center/.git   # 斷開和這個公開範本的連結，之後在 ai-company/ 裡建你自己的私人 repo
    ```
 2. 在 Claude 桌面版（Code 分頁）開一個 session，資料夾選 `~/AI-Center/ai-company`，依情況貼一句：
 
